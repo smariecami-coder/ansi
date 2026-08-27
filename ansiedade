@@ -267,21 +267,15 @@ Version 2.0
 
 <nav class="sidebar">
 
-
-
-
-
-
-
 <li><a href="#tem">SELF.DUAL.REGULATION</a></li>
 <li><a href="#tem2">Self Convergence Model (SCM)</a></li>
 <li><a href="#tem3">Mecanismo de Defesa de Integração do Self (MDIS).</a></li>
 <li><a href="#tem4">internal conflicts</a></li>
 <li><a href="#tem5">Gradual action</a></li>
-<li><a href="#tem6">Córtex Emocional Integrativo (CEI) </a></li>
+<li><a href="#tem7">Córtex Emocional Integrativo (CEI) </a></li>
+<li><a href="#nice33">Ego false caption  </a></li>
 
 
-</ul>
 </nav>
 
 <!--=====================
@@ -314,7 +308,6 @@ EGO.SELF.primary()
  					
 </pre>
 
-
 </div>
 </section>
 
@@ -337,10 +330,8 @@ EGO.SELF.primary()
 							▼
 				        Hipótese C
 									
-		
-
+	
 </pre>
-
 
 </div>
 </section>
@@ -371,9 +362,10 @@ SELF 2 ─────┘
 	  
 </pre>
 
-
 </div>
 </section>
+
+
 <section id="tem4">
 <h2>internal conflicts</h2>
 
@@ -392,16 +384,16 @@ SELF 2 ─────┘
 	
 	// self[1] And self[2] tem que continuar saindo do conflito aonde apos sair do conflito 
 	criasse um self 3 que gere um novo self porem a pergunta que fica e como dar exit ? 
-		
+			
 			racionalizar 
 	
 		
 	  
 </pre>
 
-
 </div>
 </section>
+
 
 <section id="tem5">
 <h2>Gradual action</h2>
@@ -427,7 +419,6 @@ DELE PARA QUE RESOLVA O PROBLEMA
 											└──► [Gradual response]
 						
 </pre>
-
 
 </div>
 </section>
@@ -465,43 +456,51 @@ DELE PARA QUE RESOLVA O PROBLEMA
 						
 </pre>
 
-
 </div>
 </section>
 
-<section id="tem5">
-<h2>Gradual action</h2>
+
+
+
+<section id="nice33">
+<h2> Ego false  </h2>
 
 <pre>
-3 x 1
-│
-├──► THREE.INDIVIDUALS
-│       │
-│       └──► numerical.advantage = [ego = 3] 
-│
-│
-└──► INDIVIDUAL[1]
-        │
-        ├──► security
-        ├──► firmness
-        ├──► confidence
-        ├──► boundary.set()
-        └──► abrupt.cut()
-                │
-                ▼
-        /ego1/ego2/ego3/.multiples().ego[1].set(stabilized) AS {
-			
-			ego1/ego2/ego3.singular-focus([ego1])
-			
-		}
-		abusadores narcistas e sociopatas possuem varios egos basta 
-		indentificar quais sao e agir de forma singular no ponto fixo 
+
+
+
+├──► Ego
+│   └──► Double Ego.false.Caption
+│       └──► spider.exe(Ariani)
+│           └──► spider.control.ego.enemy
+
 						
 </pre>
 
+</div>
+</section>
+
+<section id="tem7">
+<h2> Ego false double   </h2>
+
+<pre>
+
+├──► Ego
+│   └──► Double Ego.false.Caption
+│       └──► spider.exe(Ariani).false(13:00)
+│           └──► execute.swordfish - 13:00
+					└──►swordfish.add{
+						patience,
+						connection,
+						empathy,
+					}
+│               └──► spider.control.ego.enemy
+						
+</pre>
 
 </div>
 </section>
+
 <footer>
 
 BRANCH.API © 2026
@@ -513,8 +512,3 @@ BRANCH.API © 2026
 </body>
 
 </html>
-					
-				
-				
-				
-		c
