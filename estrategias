@@ -1,1 +1,1018 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Neuro-corvo </title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:#0d1117;
+
+    color:#e6edf3;
+
+}
+
+/*========================
+        HEADER
+=========================*/
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    height:70px;
+
+    background:#161b22;
+
+    border-bottom:1px solid #30363d;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 30px;
+
+    z-index:999;
+
+}
+
+header h1{
+
+    font-size:26px;
+
+}
+
+.version{
+
+    color:#58a6ff;
+
+}
+
+/*========================
+        SIDEBAR
+=========================*/
+
+.sidebar{
+
+    position:fixed;
+
+    top:70px;
+
+    left:0;
+
+    bottom:0;
+
+    width:270px;
+
+    overflow:auto;
+
+    background:#161b22;
+
+    border-right:1px solid #30363d;
+
+}
+
+.sidebar h3{
+
+    padding:20px;
+
+    color:#58a6ff;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+.sidebar li{
+
+    border-bottom:1px solid #30363d;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 20px;
+
+}
+
+.sidebar a:hover{
+
+    background:#21262d;
+
+}
+
+/*========================
+        CONTENT
+=========================*/
+
+main{
+
+    margin-left:270px;
+
+    margin-top:70px;
+
+    padding:40px;
+
+}
+
+section{
+
+    margin-bottom:60px;
+
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:10px;
+
+    padding:30px;
+
+    margin-top:20px;
+
+}
+
+h2{
+
+    color:#58a6ff;
+
+    margin-bottom:20px;
+
+}
+
+pre{
+
+    background:#0d1117;
+
+    border:1px solid #30363d;
+
+    border-radius:6px;
+
+    padding:20px;
+
+    overflow:auto;
+
+    color:#7ee787;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+th,td{
+
+    border:1px solid #30363d;
+
+    padding:12px;
+
+}
+
+th{
+
+    background:#21262d;
+
+}
+
+.search{
+
+    width:300px;
+
+    padding:10px;
+
+    border-radius:6px;
+
+    border:none;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+    text-align:center;
+
+    opacity:.6;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Corvo</h1>
+
+<input class="search"
+placeholder="Pesquisar módulo...">
+
+<div class="version">
+
+Version 2.0
+
+</div>
+
+</header>
+
+<!--=====================
+        MENU
+======================-->
+
+<nav class="sidebar">
+
+
+
+
+
+
+<h3> NEURÔNIOS E SINAPSES </h3>
+
+<h3> Crises  </h3>
+
+<li><a href="#tem3">DEA</a></li>
+
+<h3> Cerebro  </h3>
+<li><a href="#tem4">Areas do cerebro</a></li>
+
+<h3> Talamo  </h3>
+
+<li><a href="#tem5">Talamo</a></li>
+<li><a href="#tem6">Talamo singular</a></li>
+
+<h3> Nervo vestibulococlear   </h3>
+<li><a href="#tem2"> Nervo vestibulococlear</a></li>
+
+<li><a href="#tem7"> dual reasoning </a></li>
+<h3> Núcleo de Autorrevisão Cognitiva (NAC)   </h3>
+
+<li><a href="#tem8">Área de Integração </a></li>
+<li><a href="#tem11">dual attention </a></li>
+<li><a href="#tem12">event point </a></li>
+<li><a href="#tem17"> Triple attention</a></li>
+<li><a href="#tem20"> Attention VBA </a></li>
+<li><a href="#tem30">  attention GS </a></li>
+<li><a href="#tem31">   one focus invasor </a></li>
+<li><a href="#tem35"> Losang logic </a></li>
+<li><a href="#tem33"> Losang active ego + id     </a></li>
+<li><a href="#team">	Vision     </a></li>
+<li><a href="#team2">	Audio frequency     </a></li>
+
+
+</ul>
+</nav>
+
+<!--=====================
+        CONTENT
+======================-->
+
+<main>
+
+<section id="tem3">
+<h2> DEA</h2>
+
+<pre>
+ 
+ BRANCH: DEFESA DO EGO DIANTE DE AMEAÇA
+
+EGO
+ |
+ ├── INPUT
+ |     └── Ameaça percebida
+ |            ├── Crítica
+ |            ├── Rejeição
+ |            ├── Perda de controle
+ |            └── Sensação de vulnerabilidade
+ |
+ ├── PROCESSAMENTO
+ |     └── Interpretação do ego
+ |            |
+ |            └── "Minha identidade está sendo ameaçada"
+ |                 └──
+ ├── ESTADO INTERNO
+ |     └── Ansiedade / tensão emocional
+ |            |
+ |            ├── Medo
+ |            ├── Vergonha
+ |            └── Insegurança
+ |
+ ├── BRANCH DE DEFESA
+ |     |
+ |     ├── Projeção
+ |     |      └── Atribuir ao outro aquilo que causa conflito interno
+ |     |
+ |     ├── Deslocamento
+ |     |      └── Transferir emoção para outro alvo
+ |     |
+ |     ├── Negação
+ |     |      └── Recusar aceitar a ameaça
+ |     |
+ |     └── Controle
+ |            └── Tentar recuperar poder sobre a situação
+ |
+ ├── SAÍDA COMPORTAMENTAL
+ |     |
+ |     ├── Resposta adaptativa
+ |     |      ├── Comunicação
+ |     |      ├── Reflexão
+ |     |      └── Solução do problema
+ |     |
+ |     └── Resposta defensiva intensa
+ |            ├── Hostilidade
+ |            ├── Agressividade verbal
+ |            └── Afastamento
+ |
+ └── APRENDIZADO DO EGO
+        |
+        ├── Reforça defesa usada
+        
+
+          
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem4">
+<h2> Areas do cerebro</h2>
+
+<pre>
+ 
+   CÉREBRO
+│
+├── Córtex cerebral
+│   ├── Lobo frontal
+│   │   ├── Córtex motor primário → movimentos voluntários
+│   │   ├── Córtex pré-frontal → planejamento, decisões, controle de impulsos
+│   │   └── Área de Broca → produção da fala
+│   │
+│   ├── Lobo parietal
+│   │   ├── Sensação corporal
+│   │   ├── Orientação espacial
+│   │   └── Integração dos sentidos
+│   │
+│   ├── Lobo temporal
+│   │   ├── Memória
+│   │   ├── Audição
+│   │   └── Compreensão da linguagem
+│   │
+│   └── Lobo occipital
+│       └── Processamento da visão
+│
+├── Gânglios da base
+│   ├── Estriado (caudado + putâmen)
+│   ├── Globo pálido
+│   └── Substância negra
+│       → controle e coordenação dos movimentos
+│
+├── Cerebelo
+│   ├── Equilíbrio
+│   ├── Precisão dos movimentos
+│   └── Aprendizado motor
+│
+
+		├──Tronco cerebral
+│   ├── Mesencéfalo
+│   ├── Ponte
+│   └── Bulbo
+│       → respiração, consciência, funções automáticas
+│
+├── Sistema límbico
+│   ├── Hipocampo → memória
+│   ├── Amígdala → emoções e medo
+│   └── Giro do cíngulo → atenção e emoção
+│
+└── Tálamo e hipotálamo
+    ├── Tálamo → retransmissão de informações sensoriais
+    └── Hipotálamo → hormônios, fome, temperatura
+	
+</pre>
+
+
+</div>
+
+</section>
+<section id="tem2">
+<h2>Emotions  </h2>
+	
+<pre>
+
+
+		              SENTIMENTOS POSITIVOS
+
+								 |
+			 ┌───────────────────┼───────────────────┐
+			 ▼                   ▼                   ▼
+
+			Alegria          Calma             Realização
+
+			 ▼                   ▼                   ▼
+
+			Entusiasmo       Paz               Orgulho saudável
+			Gratidão         Segurança         Satisfação
+			Esperança        Conforto          Confiança
+			Amor             Harmonia          Motivação
+			Curiosidade      Inspiração        Criatividade
+			   
+	  
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem5">
+	<h2> Talamo  </h2>
+
+<pre> 
+
+  ego1.voice(ola)
+  Cóclea ()
+  Tronco encefálico()
+  Mesencéfalo(colículo inferior)	
+  Talamo.nervo vestibulococlear()]
+		
+		
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem6">
+	<h2> Talamo singular   </h2>
+
+<pre>
+
+ ego1.voice() + ego2.voice()
+	--> singular ego[name= ego3] ()
+		├── ego3.modify()
+
+
+EGO1
+ └── voice()
+         \
+          \
+           +------------------+
+          /                   |
+         /                    ▼
+EGO2                  singular_ego
+ └── voice()            ├── name : ego3
+                        ├── origin : ego1 + ego2
+   		        modify()
+
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem7">
+	<h2> Desordem falatoria     </h2>
+
+<pre>
+	
+	
+	 
+	
+		└──Desordem falatoria   
+		   └──Nervo vestibulococlear :
+			frequencia : 10 Hz,
+			ego  ,
+			personalidade : hostil/amigo 
+		         └──gerenciamento de frequencia 
+		
+</pre>
+
+
+</div>
+
+</section>
+
+
+
+
+<section id="tem7">
+	<h2> dual reasoning     </h2>
+
+<pre>
+	      Entrada auditiva
+                       │
+                       ▼
+                 Som A + Som B
+                       │
+                       ▼
+        Processamento auditivo cortical
+                       │
+                       ▼
+      Oscilações neurais simultâneas
+
+           Ritmo 1        Ritmo 2
+             (FR1)         (FR2)
+                 \         /
+                  \       /
+                   ▼     ▼
+           Integração / Competição neural
+					  │
+					  ▼
+           Padrão oscilatório predominante
+					 (FR3)
+					   │
+					   ▼
+			  Seleção da resposta
+					   │
+					   ▼
+				Decisão do corvo
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem7">
+	<h2>	Área de Integração     </h2>
+
+<pre>
+	   
+	   O corvo é exposto a dois estímulos.
+	   O primeiro apresenta frequência de 1/fr e uma oscilação de 0,5/fr. 
+	   Diante desse padrão, ele tende a explorar outro estímulo com frequência de 2/fr, 
+	   que também possui oscilação de 0,5/fr. Porém, ao perceber que esse estímulo não
+	   oferece uma diferença relevante, ele pode desistir. Quando surge um terceiro estímulo,
+	   de 3/fr, acompanhado de um índice de oscilação mais elevado, 
+	   o corvo tende a direcionar mais atenção para ele. 
+	   
+	corvo.vision.active()
+      corvo.scan()
+        if(corvo.detects.sound){
+
+            while(ambient.sound = 1fr/0.5 AND 2fr/0.5){
+
+                corvo.attention.ambient()
+
+            }else{
+
+                corvo.search.interaction()
+               }
+		 }
+	   
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem8">
+	<h2>	Triple      </h2>
+
+<pre>
+	               ÁREA DE INTEGRAÇÃO
+                       │
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+   MEMÓRIA         ATENÇÃO         PERCEPÇÃO
+       │               │               │
+       └───────────────┼───────────────┘
+                       ↓
+                  INTEGRAÇÃO
+                       ↓
+                 NOVA IDEIA
+                       ↓
+                   DECISÃO
+	  
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem11">
+	<h2>dual attention</h2>
+
+<pre>
+	   
+corvo.attention(
+    [POINT.enter[Cafe]]
+    OR
+    [POINT.end[Barulho]]
+)	  
+	   
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem12">
+	<h2>event point</h2>
+
+<pre>
+	   
+[POINT.enter] ───────────────────── [POINT.end]
+      │                                      │
+      │                                      │
+   começa o                              termina o
+    evento                                evento
+	
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem17">
+	<h2> Triple attention </h2>
+
+<pre>
+        
+SELF
+└── self.connect.ego(target)
+	  └── ego.trigger()
+			└── connection
+             └── socialization.triggers()
+                ├── interaction
+					└── ego.focus()
+					└── branch expand :
+							└── attention.focus()
+								└──shape.-attention()
+									├── TV       = 0.10
+									├── MUSIC    = 0.30
+									├── NOTEBOOK = 0.50
+											
+</pre>
+
+
+</div>
+
+</section>
+
+
+<section id="tem20">
+	<h2>  attention VBA </h2>
+
+<pre>
+     attention()
+    └── attention.focus()
+    ├── scan.visual()
+    ├── scan.behaviors()
+    └── scan.actions()
+        │
+        ↓
+    socialization(target)
+        │
+        ↓
+    branch.compile()
+        │
+        ↓
+    VBA
+    └── vba.focus()
+        └── vba.shape()
+
+											
+</pre>
+
+
+</div>
+
+</section>
+
+
+<section id="tem30">
+	<h2>  attention GS </h2>
+
+<pre>
+   					
+GRAB ,second 
+to catch, per second
+		
+		PENSEI em algo como a cada second 1.s podemos alterar esse 1.s para 0.5 e para que 0.5 setorne 
+		10 podemos pegar e 0.5 ---> binary ----> + 0 1 0 1 0 1 0 + -> 0.5  ou seja ate que 
+		0.5 chegue ao ponto b  ele faz uma compilacao de algorticmo no caso um loading de carregamento 
+		
+	
+					
+</pre>
+
+
+</div>
+
+</section>
+
+
+<section id="tem55">
+	<h2>  DOuble self  </h2>
+
+<pre>
+   					
+EGO.SELF.primary()
+│
+├── SELF.primary
+│   └── actions
+		 └── trigger exposure 
+				  └── include.SELF.secondary(ansiedade)
+	└── memories 
+	└── triggers
+│
+└── EGO.SELF.secondary()
+    │
+    ├── secondary.PROTECTIVE
+        ├── trauma 
+        ├── ansiedade 
+        ├── TOC 
+        └── padrões defensivos
+					
+</pre>
+
+
+</div>
+
+</section>
+
+
+
+<section id="tem55">
+	<h2>  Núcleo de Regulação do Humor (NRH)  </h2>
+
+<pre>
+	
+		 POINT.enter / Point.end 
+		 
+			[point.enter] = communication.validate.system {
+				
+				point.input = thoughts.disordered ()
+				        └── allocated.in.area((NRH)
+							└── (NRH)
+								└── receives thoughts {
+									 └──extraction thought  {
+										└── memory allocation
+											└── NRH 
+												└── Filter 
+												└── Rationalizes
+												└── Desacoplar
+												
+										
+									}
+									
+								
+								}
+			}
+	
+			
+
+
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem55">
+	<h2> Atencao enganosa   </h2>
+
+<pre>
+	
+		
+	RECOMPENSA
+9 ──► custo aceitável? ──► 1 → avançar
+8 ──► custo aceitável? ──► 2 → avançar
+7 ──► custo aceitável? ──► 3 → avançar
+6 ──► custo aceitável? ──► 4→ avançar
+4 ──► custo aceitável? ──► 5 → avançar
+3 ──► custo aceitável? ──► 6 → avançar 
+2 ──► custo aceitável? ──► 7 → avançar
+1 ──► custo aceitável? ──► 8 → avançar
+
+	
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem31">
+	<h2> one focus invasor   </h2>
+
+<pre>
+	
+[1A] [1B] [1C] ---> RECEPTORES
+                      └── BRAIN
+                           └── [1ABC].person
+                                  ▲
+                                  │
+                              [1D] INVASOR
+
+	
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem31">
+	<h2> Door.active    </h2>
+
+<pre>
+
+ triggers.random() 
+	└──► new triggers  
+		└──► neural plasticity/defense 
+			  └──► brain 
+					└──► memory 
+							└──► memory.access() 
+										└──► modify 
+												└──► triggers 
+														└──► triggers.action () 
+															   └──► reflection() 
+																		└──► brain :{ 
+																			 
+																			triggers.action(){ 
+																				 
+																				think, 
+																				reflect, 
+																				action 
+																			 
+																			} 
+																		 
+																		} 
+	
+</pre>
+
+
+</div>
+
+</section>
+
+<section id="tem35">
+	<h2> losango  logic   </h2>
+
+<pre>
+      
+                         ◇
+                        ╱ ╲
+                       ╱   ╲
+                      ╱ EGO ╲
+                     ╱       ╲
+                    ╱         ╲
+                   ╱           ╲
+          ID ◇────╱             ╲────◇ PERSONA
+                  ╲             ╱
+                   ╲           ╱
+                    ╲         ╱
+                     ╲       ╱
+                      ╲     ╱
+                       ╲   ╱
+                        ╲ ╱
+                         ◇
+                      SUPEREGO
+
+
+</div>
+
+</section>
+
+
+<section id="tem33">
+	<h2> Losang active ego + id   </h2>
+
+<pre>
+          
+                        ╱ ╲
+                       ╱   ╲
+                      ╱ EGO ╲
+                     ╱       ╲
+                    ╱         ╲
+                   ╱           ╲
+          ID ◇────╱             ╲
+                  ╲             ╱
+                   ╲           ╱
+                    ╲         ╱
+                     ╲       ╱
+                      ╲     ╱
+                       ╲   ╱
+                        ╲ ╱
+                         ◇
+				
+				
+				CAN.access.requirements{
+					
+					empathy ,
+					love,
+					
+				
+				}
+
+			
+</div>
+
+</section>
+
+
+<section id="team">
+	<h2>	EAR.frequency()    </h2>
+
+<pre>
+	
+	ear.frequency.low {
+
+    attention.level.high
+			└──► branch 
+					└──► brain.module.junction.with.person
+							└──► Dialog 
+									└──► <1> AND <0> 
+									
+								
+                  
+</pre>
+
+</section>
+
+<section id="team2">
+	<h2>	Sound FREQUENCY    </h2>
+
+<pre>
+											SOUND.FREQUENCY
+												│
+												├── LOW
+												│    └── APPROACHMENT → HIGH
+												│
+												└── HIGH
+													 └── APPROACHMENT → LOW
+
+	} 
+
+                  
+</pre>
+
+</section>
+<footer>
+
+BRANCH.API © 2026
+
+</footer>
+
+</main>
+
+</body>
+
+</html>
+
