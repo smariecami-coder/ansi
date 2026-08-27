@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ESTRATEGIAS</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0d1117;
+color:#e6edf3;
+font-family:Segoe UI,Arial,sans-serif;
+}
+
+header{
+height:70px;
+background:#161b22;
+border-bottom:1px solid #30363d;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 30px;
+position:fixed;
+top:0;
+left:0;
+right:0;
+z-index:10;
+}
+
+header h1{
+color:#00ff99;
+}
+
+.version{
+color:#58a6ff;
+}
+
+.sidebar{
+position:fixed;
+top:70px;
+left:0;
+bottom:0;
+width:260px;
+background:#161b22;
+border-right:1px solid #30363d;
+padding:20px;
+overflow:auto;
+}
+
+.sidebar a{
+display:block;
+padding:10px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#21262d;
+color:#00ff99;
+}
+
+main{
+margin-left:260px;
+padding:110px 40px 40px;
+}
+
+.section{
+background:#151515;
+border-left:4px solid #00ff99;
+padding:25px;
+margin-bottom:40px;
+border-radius:8px;
+}
+
+h2{
+color:#00ff99;
+margin-bottom:20px;
+}
+
+.card{
+background:#0d1117;
+border:1px solid #30363d;
+padding:20px;
+border-radius:8px;
+}
+
+.tree{
+font-family:Consolas,monospace;
+white-space:pre-line;
+color:#7ee787;
+line-height:25px;
+}
+
+h3{
+color:#8d8db4;
+}
+
+footer{
+text-align:center;
+opacity:.6;
+margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Escolas do Brasil</h1>
+
+<div class="version">
+Version 2.0
+</div>
+
+</header>
+
+
+<nav class="sidebar">
+
+<a href="#behavior12">spotlights with branch</a>
+<a href="#behavior14">Double conflict fake</a>
+<a href="#behavior16">lens countries</a>
+<a href="#behavior17">UNITY countries</a>
+<a href="#behavior19">INFORMATION.CORE</a>
+<a href="#behavior20">SYNTHESIS</a>
+<a href="#behavior21">integração neural</a>
+<a href="#behavior22">integração neural singular</a>
+<a href="#behavior35">reverse projection</a>
+
+</nav>
+
+
+<main>
+
+
+<section id="behavior12">
+
+<h2>spotlights with branch</h2>
+
+<pre>
+
+spotlights.choice(country)
+spotlights.country.selected(Argentina) :
+└── branch
+    ├── spotlight.undefined
+    ├── spotlight.undefined
+    ├── spotlight.undefined
+    └── spotlight.undefined
+
+</pre>
+
+</section>
+
+
+<section id="behavior14">
+
+<h2>Double conflict fake</h2>
+
+<pre>
+
+├── conflict.A.theme [I.A]
+│   └── EUA × China
+
+-----> /oscillate
+
+├── conflict.B.theme [Software,technology]
+│   └── Índia × China
+
+</pre>
+
+</section>
+
+
+<section id="behavior16">
+
+<h2>lens countries</h2>
+
+<pre>
+
+countries()
+└── countries.ego.synchronized
+    ├── EUA
+    └── CHINA
+        └── countries.selected.focus(Argentina)
+            └── Lens
+                ├── intensity = 3/3
+                └── branch expanse
+                    ├── emprego e renda
+                    ├── produtividade
+                    └── Culinaria
+
+</pre>
+
+</section>
+
+
+<section id="behavior17">
+
+<h2>UNITY countries</h2>
+
+<pre>
+
+├── countries.UNITY()
+    └── UNITY.expand
+        └── China/Argentina
+            └── technology + culture
+
+</pre>
+
+</section>
+
+
+<section id="behavior19">
+
+<h2>INFORMATION.CORE</h2>
+
+<pre>
+
+INFORMATION.CORE
+│
+├── POLÍTICA
+│   └── BRANCH.EXPAND OR BRANCH INTERCALE
+│
+├── ECONOMIA
+│   └── BRANCH.EXPAND
+│
+├── IDENTIDADE
+│   └── BRANCH.EXPAND
+│
+├── IDEOLOGIA
+│   └── BRANCH.EXPAND
+│
+├── MÍDIA
+│   └── BRANCH.EXPAND
+│
+└── MOBILIZAÇÃO
+    └── BRANCH.EXPAND
+
+</pre>
+
+</section>
+
+
+<section id="behavior20">
+
+<h2>synapse.</h2>
+
+<pre>
+
+TV
+────────────────────────
+ A ──┐
+      ├── synapse. ──→ C
+ B ──┘
+
+FONTES: A + B
+TIPO: SÍNTESE
+────────────────────────
+
+</pre>
+
+</section>
+
+
+<section id="behavior21">
+
+<h2>integração neural</h2>
+
+<pre>
+
+🔵 INPUT.A ──┐
+🔵 INPUT.B ──┼──→ 🟣 INTEGRAÇÃO SINÁPTICA
+🔵 INPUT.C ──┘          ↓
+                    🧠 PROCESSAMENTO
+                         ↓
+                    🟢 APRENDIZAGEM
+
+</pre>
+
+</section>
+
+
+<section id="behavior22">
+
+<h2>integração neural singular</h2>
+
+<pre>
+
+🔵 INPUT.A ───────────────┐
+                          ├──→ 🟣 INTEGRAÇÃO A↔C
+🔵 INPUT.C ───────────────┘
+                               │
+                               ▼
+                         🧠 PROCESSAMENTO
+                               │
+                               ▼
+                         🟢 APRENDIZAGEM
+
+
+🟠 INPUT.B ──→ 🔄 WHILE
+                  │
+                  └──→ B.PROCESS
+
+</pre>
+
+</section>
+
+
+<section id="behavior35">
+
+<h2>Projecao reversa</h2>
+
+<pre>
+
+ego.self.interact(social)
+└──► ego.access.nucleo()
+        └──► if can.modify {
+                ego.self.apply.projection()
+             }
+
+</pre>
+
+</section>
+
+
+<footer>
+
+</footer>
+
+
+</main>
+
+</body>
+
+</html>
