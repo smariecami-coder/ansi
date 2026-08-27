@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BRANCH.API Documentation</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:#0d1117;
+
+    color:#e6edf3;
+
+}
+
+/*========================
+        HEADER
+=========================*/
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    height:70px;
+
+    background:#161b22;
+
+    border-bottom:1px solid #30363d;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 30px;
+
+    z-index:999;
+
+}
+
+header h1{
+
+    font-size:26px;
+
+}
+
+.version{
+
+    color:#58a6ff;
+
+}
+
+/*========================
+        SIDEBAR
+=========================*/
+
+.sidebar{
+
+    position:fixed;
+
+    top:70px;
+
+    left:0;
+
+    bottom:0;
+
+    width:270px;
+
+    overflow:auto;
+
+    background:#161b22;
+
+    border-right:1px solid #30363d;
+
+}
+
+.sidebar h3{
+
+    padding:20px;
+
+    color:#58a6ff;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+.sidebar li{
+
+    border-bottom:1px solid #30363d;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 20px;
+
+}
+
+.sidebar a:hover{
+
+    background:#21262d;
+
+}
+
+/*========================
+        CONTENT
+=========================*/
+
+main{
+
+    margin-left:270px;
+
+    margin-top:70px;
+
+    padding:40px;
+
+}
+
+section{
+
+    margin-bottom:60px;
+
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:10px;
+
+    padding:30px;
+
+    margin-top:20px;
+
+}
+
+h2{
+
+    color:#58a6ff;
+
+    margin-bottom:20px;
+
+}
+
+pre{
+
+    background:#0d1117;
+
+    border:1px solid #30363d;
+
+    border-radius:6px;
+
+    padding:20px;
+
+    overflow:auto;
+
+    color:#7ee787;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+th,td{
+
+    border:1px solid #30363d;
+
+    padding:12px;
+
+}
+
+th{
+
+    background:#21262d;
+
+}
+
+.search{
+
+    width:300px;
+
+    padding:10px;
+
+    border-radius:6px;
+
+    border:none;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+    text-align:center;
+
+    opacity:.6;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>ansiedade</h1>
+
+<input class="search"
+placeholder="Pesquisar módulo...">
+
+<div class="version">
+
+Version 2.0
+
+</div>
+
+</header>
+
+<!--=====================
+        MENU
+======================-->
+
+<nav class="sidebar">
+
+
+
+
+
+
+
+<li><a href="#tem">SELF.DUAL.REGULATION</a></li>
+<li><a href="#tem2">Self Convergence Model (SCM)</a></li>
+<li><a href="#tem3">Mecanismo de Defesa de Integração do Self (MDIS).</a></li>
+<li><a href="#tem4">internal conflicts</a></li>
+<li><a href="#tem5">Gradual action</a></li>
+<li><a href="#tem6">Córtex Emocional Integrativo (CEI) </a></li>
+
+
+</ul>
+</nav>
+
+<!--=====================
+        CONTENT
+======================-->
+
+<main>
+
+<section id="tem">
+<h2>SELF.DUAL.REGULATION</h2>
+
+<pre> 
+
+EGO.SELF.primary()
+│
+├── SELF.primary
+│   └── actions
+		 └── trigger exposure 
+				  └── include.SELF.secondary(ansiedade)
+	└── memories 
+	└── triggers
+│
+└── SELF.secondary()
+    │
+    ├── secondary.PROTECTIVE
+        ├── trauma 
+        ├── ansiedade 
+        ├── TOC 
+        └── padrões defensivos
+ 					
+</pre>
+
+
+</div>
+</section>
+
+
+<section id="tem3">
+<h2>Self Convergence Model (SCM) <h2>
+
+<pre>
+		[SELF 1]                 [SELF 2]
+			│                         │
+			└────────┐       ┌────────┘
+					 ▼       ▼
+				    SELF.MEDIUM = (SELF1 ↔ SELF2)
+					  │
+					  └── brain
+							│
+							▼
+					 SELF.RESULTANT
+							│
+							▼
+				        Hipótese C
+									
+		
+
+</pre>
+
+
+</div>
+</section>
+
+
+<section id="tem2">
+<h2>Mecanismo de Defesa de Integração do Self (MDIS).</h2>
+
+<pre>
+
+SELF 1 ─────┐
+            │
+            ▼
+       SELF.MEDIUM
+            ▲
+            │
+SELF 2 ─────┘
+            │
+            ├── comparação
+            ├── interpretação
+            ├── integração
+            ▼
+      EMOTIONAL.STATE
+            │
+            ▼
+      SELF.RESULTANT
+	  
+	  
+</pre>
+
+
+</div>
+</section>
+<section id="tem4">
+<h2>internal conflicts</h2>
+
+<pre>
+	self[1]/conflicts/self[2].self[1][2].continue(exit.conflicts)
+		where :
+			extend.self.branch {
+				
+				└── new self[3]
+				            └──after rationalize()
+									    └──extend branch
+											       └──Loop 
+											            └── new self()
+			
+			}
+	
+	// self[1] And self[2] tem que continuar saindo do conflito aonde apos sair do conflito 
+	criasse um self 3 que gere um novo self porem a pergunta que fica e como dar exit ? 
+		
+			racionalizar 
+	
+		
+	  
+</pre>
+
+
+</div>
+</section>
+
+<section id="tem5">
+<h2>Gradual action</h2>
+
+<pre>
+OU SEJA SELF 1 E SELF  2 ENTRAM EM CONFLITO APOS ISSO GERA-SE UM BRANCH QUE CONTEM 
+TEMAS DA ansiedade POREM PARA COMBATER ISSO O CEREBRO CRIA UMA self3    DENTRO 
+DELE PARA QUE RESOLVA O PROBLEMA 
+ │
+ ├── SELF[1]
+ │
+ └── SELF[2]
+        │
+        ▼
+     CONFLICT
+        │
+        └──► branch.create()
+                    │
+				   SELF[3]
+				    │
+                    └──► [Gradual action] 
+							└──► [Gradual reaction]
+											└──► [Gradual response]
+						
+</pre>
+
+
+</div>
+</section>
+
+
+
+<section id="tem7">
+<h2>Córtex Emocional Integrativo (CEI) </h2>
+
+<pre>
+
+   ou seja apos  detectar o alvo gera uma emocao 
+   tendo em vista isso pegamos e ampliamos para estado de 
+   emocao singular ou seja qual emocao focus () 
+
+            │
+            ├──► emotion.detect(undefined )
+			  ├──► emotion.classify()
+            │       ├──► Alegria
+            │       ├──► Medo
+            │       ├──► Tristeza
+            │       ├──► Raiva
+            │       └──► Surpresa
+            │
+            ▼		
+        emotional.state
+            │
+            └──► singular.action()
+                    │
+                    ▼
+                response
+    }
+
+}
+						
+</pre>
+
+
+</div>
+</section>
+
+<section id="tem5">
+<h2>Gradual action</h2>
+
+<pre>
+3 x 1
+│
+├──► THREE.INDIVIDUALS
+│       │
+│       └──► numerical.advantage = [ego = 3] 
+│
+│
+└──► INDIVIDUAL[1]
+        │
+        ├──► security
+        ├──► firmness
+        ├──► confidence
+        ├──► boundary.set()
+        └──► abrupt.cut()
+                │
+                ▼
+        /ego1/ego2/ego3/.multiples().ego[1].set(stabilized) AS {
+			
+			ego1/ego2/ego3.singular-focus([ego1])
+			
+		}
+		abusadores narcistas e sociopatas possuem varios egos basta 
+		indentificar quais sao e agir de forma singular no ponto fixo 
+						
+</pre>
+
+
+</div>
+</section>
+<footer>
+
+BRANCH.API © 2026
+
+</footer>
+
+</main>
+
+</body>
+
+</html>
+					
+				
+				
+				
+		c
